@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ExampleConsoleVb")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("ExampleConsoleVb")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyTitle("Desharp.ExampleConsoleVb")>
+<Assembly: AssemblyDescription("Desharp - Console application demo with running tests (C#).")>
+<Assembly: AssemblyCompany("Tom Flidr")>
+<Assembly: AssemblyProduct("Desharp.ExampleConsoleVb")>
+<Assembly: AssemblyCopyright("Copyright © 2017")>
+<Assembly: AssemblyTrademark("Tom Flidr")>
 
 <Assembly: ComVisible(False)>
 
