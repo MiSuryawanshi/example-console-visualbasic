@@ -7,3 +7,4 @@ Console application with demo dumps and tests.
 
 ## Printscreen
 ![Printscreen](https://raw.githubusercontent.com/debug-sharp/example-console-visualbasic/master/printscreen.png)
+
