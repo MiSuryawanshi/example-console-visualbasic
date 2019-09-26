@@ -14,6 +14,8 @@ Module Program
     Private Sub _demoDumpAndLog()
         Console.Write("Press enter key to dump demo data and write it to HDD.")
         Console.ReadLine()
+        Console.WriteLine()
+
         Dim demoObject = New Dictionary(Of String, Object)() From {
             {"clark", New With {
                 .name = "Clark",
@@ -33,11 +35,15 @@ Module Program
         }
         Debug.Dump(demoObject)
         Debug.Log(demoObject)
+
+        Console.WriteLine()
+        Console.WriteLine()
     End Sub
 
     Private Sub _demoException()
         Console.Write("Press enter key to dump catched demo exception and write it to HDD.")
         Console.ReadLine()
+        Console.WriteLine()
 
         Try
             Throw New Exception("Demo exception:-)")
@@ -45,13 +51,18 @@ Module Program
             Debug.Dump(ex)
             Debug.Log(ex)
         End Try
+
+        Console.WriteLine()
     End Sub
 
     Private Sub _runTests()
         Console.Write("Pres enter key to start duping test objects.")
         Console.ReadLine()
+        Console.WriteLine()
+
         Dim dlTest = New Tests.DumpingAndLoging()
         dlTest.TestAll()
+
         Dim eTest = New Tests.ExceptionsRendering()
         eTest.TestAll()
     End Sub
