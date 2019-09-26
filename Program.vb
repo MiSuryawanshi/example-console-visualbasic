@@ -60,11 +60,11 @@ Module Program
         Console.ReadLine()
         Console.WriteLine()
 
-        Dim dlTest = New Tests.DumpingAndLoging()
-        dlTest.TestAll()
+		Dim dlTest = New Desharp.Tests.DumpingAndLoging()
+		dlTest.TestAll()
 
-        Dim eTest = New Tests.ExceptionsRendering()
-        eTest.TestAll()
+		Dim eTest = New Desharp.Tests.ExceptionsRendering()
+		eTest.TestAll()
     End Sub
 
 End Module
