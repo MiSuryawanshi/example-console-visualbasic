@@ -1,7 +1,1 @@
-<<<<<<< Updated upstream
-This is stash demo file. Continue for stash demo
-=======
-This is stash demo file
-
-stash change 1
->>>>>>> Stashed changes
+Merge demo
