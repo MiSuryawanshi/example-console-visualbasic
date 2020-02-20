@@ -15,6 +15,4 @@ Console application with demo dumps and tests.
 changes by mangesh
 =======
 Changes by Pradnya
->>>>>>> 54ec2902d6faa86acfcea0be0f4971c4ec22b250
-
 Changes by pradnya for rebase
